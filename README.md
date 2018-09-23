@@ -1,1 +1,2 @@
-# magento226
+
+# Magento 2.2.6
