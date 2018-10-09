@@ -1,0 +1,23 @@
+{
+  "name": "Z/Z_Magento2Module",
+  "description": "My Magento Module",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "require": {
+    "php":">5.5.22|~5.6|7.0.2|~7.1.16",
+    "magento/framework":"100.0.*|100.1.*",
+  },
+  "repositories": {
+    "type":"composer",
+    "url":"https://repo.magento.com/",
+  },
+  "minimum-stability":"stable",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Z\\ZMagnto_Module\\":""
+    }
+  }
+}
